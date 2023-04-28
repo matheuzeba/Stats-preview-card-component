@@ -13,6 +13,7 @@ body .component {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 6rem 7px #000;
 }
 
 /* component-wrapper */
@@ -111,3 +112,8 @@ body .component .component-wrapper .col.text .info p {
     letter-spacing: 1.5px;
     margin-top: 1rem;
 }
+
+body .component .component-wrapper .col.text .info h2:hover {
+    border-bottom: 1px solid #fff;
+}
+
