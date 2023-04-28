@@ -7,6 +7,9 @@
     /* (card background) */
     --Dark-desaturated-blue: hsl(244, 38%, 16%);
     
+    /* (image background) */
+    --img-bg: hsl(277deg 100% 33.46% / 50%);
+    
     /* (accent) */
     --Soft-violet: hsl(277, 64%, 61%);
 
