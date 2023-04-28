@@ -56,8 +56,12 @@ body .component .component-wrapper .col.img::before {
 /* adicionando paddin a .col.text */
 body .component .component-wrapper .col.text{   
     margin: 3rem 0;
-    padding: 0 7rem;
+    padding: 0 5rem;
 
+}
+
+body .component .component-wrapper .col.text .main-text {
+    margin-bottom: 4rem;
 }
 
 /* estilizando texto principal */
@@ -75,11 +79,17 @@ body .component .component-wrapper .col.text .main-text h1 span {
 
 body .component .component-wrapper .col.text .main-text p {
     font-size: 1.5rem;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
     
     line-height: 2.5rem;
     margin: 0 auto;
     color: var(--Slightly-transparent-white);
 }
 
+/* col-3 */
 
+body .component .component-wrapper .col.text .info h2 {
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+}
