@@ -5,6 +5,7 @@
 
 body {
     padding: 7rem 1rem;
+    background: var(--Very-dark-blue);
 }
 
 /* .component */
@@ -20,7 +21,7 @@ body .component .component-wrapper{
     flex-direction: column;
     background-color: var(--Dark-desaturated-blue);
 
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     overflow: hidden;
 }
 

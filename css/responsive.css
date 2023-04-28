@@ -1,0 +1,37 @@
+@media (min-width: 1000px) {
+    body {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body .component .component-wrapper {
+        flex-direction: row-reverse;
+    }
+    
+    body .component .component-wrapper .col.img img{
+        content: url(../images/image-header-desktop.jpg);
+    }
+
+    body .component .component-wrapper .col.text .main-text {
+        text-align: start;
+    }
+
+    body .component .component-wrapper .col.text .col-3 {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+    body .component .component-wrapper .col.text .main-text p {
+        font-size: 2rem;
+    }
+    body .component .component-wrapper .col.text .col-3 {
+        height: 50%;
+        align-items: end;
+    }
+}
