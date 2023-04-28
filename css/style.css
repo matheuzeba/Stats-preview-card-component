@@ -10,3 +10,10 @@ body .col {
     align-items: center;
 }
 
+/* .component */
+body .component {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
