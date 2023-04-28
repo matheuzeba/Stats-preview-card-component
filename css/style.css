@@ -13,7 +13,6 @@ body .component {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 6rem 7px #000;
 }
 
 /* component-wrapper */
@@ -24,6 +23,8 @@ body .component .component-wrapper{
 
     border-radius: 0.5rem;
     overflow: hidden;
+
+    box-shadow: 0 0 6rem 7px #000;
 }
 
 /* col */
