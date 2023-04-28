@@ -19,6 +19,9 @@ body .component .component-wrapper{
     display: flex;
     flex-direction: column;
     background-color: var(--Dark-desaturated-blue);
+
+    border-radius: 2rem;
+    overflow: hidden;
 }
 
 /* col */
@@ -96,6 +99,7 @@ body .component .component-wrapper .col.text .info h2 {
     font-size: 3rem;
     font-family: 'Inter', sans-serif;
     color: var(--White);
+    
 }
 
 body .component .component-wrapper .col.text .info p {
@@ -104,4 +108,5 @@ body .component .component-wrapper .col.text .info p {
     font-family: 'Inter', sans-serif;
     color: var(--Slightly-transparent-white);
     letter-spacing: 1.5px;
+    margin-top: 1rem;
 }
