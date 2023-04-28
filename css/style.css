@@ -3,22 +3,37 @@
     font-family: 'Lexend Deca', sans-serif;
 */
 
-/* col */
-body .col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body {
+    padding: 7rem 1rem;
 }
 
 /* .component */
 body .component {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
+/* component-wrapper */
+body .component .component-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+/* col */
+body .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 65.4rem;
+    background-color: gray;
+}
+
+
 /* .col.img */
 .col.img {
+    max-height: 48rem;
     position: relative;
 }
 
