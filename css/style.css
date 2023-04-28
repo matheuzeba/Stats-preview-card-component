@@ -17,3 +17,11 @@ body .component {
 
     align-items: center;
 }
+
+/* .col.img */
+.col.img {
+    width: 65.4rem;
+    height: 48rem;
+    background: url(../images/image-header-mobile.jpg);
+    position: relative;
+}
