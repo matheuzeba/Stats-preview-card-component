@@ -18,27 +18,29 @@ body .component {
 body .component .component-wrapper{
     display: flex;
     flex-direction: column;
+    background-color: var(--Dark-desaturated-blue);
 }
 
 /* col */
-body .col {
+body .component .component-wrapper .col {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     width: 100%;
     max-width: 65.4rem;
-    background-color: gray;
 }
 
+/*               */
 
 /* .col.img */
-.col.img {
+body .component .component-wrapper .col.img {
     max-height: 48rem;
     position: relative;
 }
 
 /* adicionando overlay */
-.col.img::before {
+body .component .component-wrapper .col.img::before {
     content: '';
     top: 0;
     left: 0;
@@ -48,3 +50,18 @@ body .col {
     background: hsl(277deg 100% 33.46% / 50%);
     box-shadow: inset 2000px 0 0 0 hsl(0deg 0% 24% / 10%);
 }
+
+/*       */
+
+/* adicionando paddin a .col.text */
+body .component .component-wrapper .col.text{
+    padding: 3rem;
+}
+
+/* estilizando texto principal */
+body .component .component-wrapper .col.text .main-text h1,
+body .component .component-wrapper .col.text .main-text h1 span{
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+} 
